@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+*/node_modules/
+*/bower_components/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment configuration
+.env
+
+# Editor files
+.vscode/
+.idea/
+*.swp
