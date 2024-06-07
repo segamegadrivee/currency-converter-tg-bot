@@ -54,15 +54,15 @@ const generateInputAmountKeyboard = () => {
 };
 
 // Handle /start command
-bot.onText(/\/start/, (msg) => {
+const handleStart = (msg) => {
     const chatId = msg.chat.id;
     bot.sendMessage(chatId, 'Welcome to Currency Converter Bot! Please choose the base currency:', {
         reply_markup: generateCurrencyKeyboard(),
     });
-});
+};
 
 // Handle text messages
-bot.on('message', async (msg) => {
+const handleMessage = async (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
 
@@ -148,4 +148,20 @@ bot.on('message', async (msg) => {
             });
         }
     }
-});
+};
+
+// Setup bot command and message handlers
+bot.onText(/\/start/, handleStart);
+bot.on('message', handleMessage);
+
+// Export functions and variables for testing
+module.exports = {
+    bot,
+    userState,
+    currencyFlags,
+    generateCurrencyKeyboard,
+    generateConfirmKeyboard,
+    generateInputAmountKeyboard,
+    handleStart,
+    handleMessage
+};
