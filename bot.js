@@ -148,7 +148,11 @@ const handleMessage = async (msg) => {
             });
         }
     }
+
 };
+
+
+
 
 // Setup bot command and message handlers
 bot.onText(/\/start/, handleStart);

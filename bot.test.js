@@ -112,5 +112,11 @@ describe('Currency Converter Bot', () => {
         handleMessage(msg);
         expect(bot.sendMessage).toHaveBeenCalledWith(chatId, 'Please choose a valid target currency:', expect.any(Object));
     });
+
+
 });
+
+
+
+
 
