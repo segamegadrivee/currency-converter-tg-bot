@@ -2,6 +2,10 @@
 
 This is a Telegram bot built using Node.js that allows users to convert currencies using the Exchangerate API.
 
+## Document
+
+https://docs.google.com/document/d/11LTgn07fzrv01w5jYhAgwhH2svPYCNWCXZN2IBAhaao/edit?hl=ru
+
 ## Features
 
 - Choose base and target currencies from a predefined list.
