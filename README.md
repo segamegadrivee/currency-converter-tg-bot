@@ -4,7 +4,7 @@ This is a Telegram bot built using Node.js that allows users to convert currenci
 
 ## Document
 
-https://docs.google.com/document/d/11LTgn07fzrv01w5jYhAgwhH2svPYCNWCXZN2IBAhaao/edit?hl=ru
+[Design document](https://docs.google.com/document/d/11LTgn07fzrv01w5jYhAgwhH2svPYCNWCXZN2IBAhaao/edit?hl=ru)
 
 ## Features
 
