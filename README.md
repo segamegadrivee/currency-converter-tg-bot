@@ -49,6 +49,15 @@ This is a Telegram bot built using Node.js that allows users to convert currenci
    node bot.js
    ```
 
+##Test
+
+Start the test:
+
+ ```bash
+   node test
+   ```
+
+
 ## Usage
 
 1. Start a chat with your bot on Telegram.
